@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-25T13:43:51 IST" name="Surefire suite" finished-at="2025-07-25T13:44:19 IST" duration-ms="27350">
+    <groups>
+    </groups>
+    <test started-at="2025-07-25T13:43:51 IST" name="Surefire test" finished-at="2025-07-25T13:44:19 IST" duration-ms="27350">
+      <class name="UpdateBookingApiTests">
+        <test-method signature="updateAndvalidateStatusCode(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.Long,java.lang.String,java.lang.String)[pri:0, instance:UpdateBookingApiTests@7fd50002]" started-at="2025-07-25T13:44:14 IST" name="updateAndvalidateStatusCode" data-provider="bookingDataWithForLoop" finished-at="2025-07-25T13:44:18 IST" duration-ms="3508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Liza]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Klein]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Souvlaki]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[981]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2025-08-04]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2025-08-08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAndvalidateStatusCode -->
+        <test-method signature="updateAndvalidateStatusCode(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.Long,java.lang.String,java.lang.String)[pri:0, instance:UpdateBookingApiTests@7fd50002]" started-at="2025-07-25T13:44:14 IST" name="updateAndvalidateStatusCode" data-provider="bookingDataWithForLoop" finished-at="2025-07-25T13:44:19 IST" duration-ms="4493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lyndsay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VonRueden]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Caprese Salad]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[457]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2025-08-04]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2025-08-08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAndvalidateStatusCode -->
+      </class> <!-- UpdateBookingApiTests -->
+      <class name="CreateBookingApiTests">
+        <test-method is-config="true" signature="initApi()[pri:0, instance:CreateBookingApiTests@548a24a]" started-at="2025-07-25T13:43:51 IST" name="initApi" finished-at="2025-07-25T13:43:52 IST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApi -->
+        <test-method signature="createAndvalidateStatusCode(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.Long,java.lang.String,java.lang.String)[pri:0, instance:CreateBookingApiTests@548a24a]" started-at="2025-07-25T13:43:52 IST" name="createAndvalidateStatusCode" data-provider="bookingDataWithForLoop" finished-at="2025-07-25T13:43:58 IST" duration-ms="5237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Krystle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Labadie]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Fish and Chips]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[377]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2025-08-04]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2025-08-08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndvalidateStatusCode -->
+        <test-method signature="createAndvalidateStatusCode(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.Long,java.lang.String,java.lang.String)[pri:0, instance:CreateBookingApiTests@548a24a]" started-at="2025-07-25T13:43:58 IST" name="createAndvalidateStatusCode" data-provider="bookingDataWithForLoop" finished-at="2025-07-25T13:43:59 IST" duration-ms="1213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kohler]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pasta and Beans]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[293]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2025-08-04]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2025-08-08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndvalidateStatusCode -->
+        <test-method signature="createAndvalidateStatusCode(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.Long,java.lang.String,java.lang.String)[pri:0, instance:CreateBookingApiTests@548a24a]" started-at="2025-07-25T13:43:59 IST" name="createAndvalidateStatusCode" data-provider="bookingDataWithForLoop" finished-at="2025-07-25T13:44:00 IST" duration-ms="1501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Juanita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ortiz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kebab]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[343]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2025-08-04]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2025-08-08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndvalidateStatusCode -->
+        <test-method signature="createAndvalidateStatusCode(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.Long,java.lang.String,java.lang.String)[pri:0, instance:CreateBookingApiTests@548a24a]" started-at="2025-07-25T13:44:00 IST" name="createAndvalidateStatusCode" data-provider="bookingDataWithForLoop" finished-at="2025-07-25T13:44:02 IST" duration-ms="1182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Grover]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bernhard]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Caesar Salad]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[900]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2025-08-04]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2025-08-08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndvalidateStatusCode -->
+        <test-method signature="createAndvalidateStatusCode(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.Long,java.lang.String,java.lang.String)[pri:0, instance:CreateBookingApiTests@548a24a]" started-at="2025-07-25T13:44:02 IST" name="createAndvalidateStatusCode" data-provider="bookingDataWithForLoop" finished-at="2025-07-25T13:44:03 IST" duration-ms="1224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bernard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Torp]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Fettuccine Alfredo]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[580]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2025-08-04]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2025-08-08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndvalidateStatusCode -->
+      </class> <!-- CreateBookingApiTests -->
+      <class name="DeleteBookingApiTests">
+        <test-method is-config="true" signature="initApi()[pri:0, instance:DeleteBookingApiTests@2a693f59]" started-at="2025-07-25T13:44:09 IST" name="initApi" finished-at="2025-07-25T13:44:09 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApi -->
+        <test-method signature="deleteBookingTest()[pri:0, instance:DeleteBookingApiTests@2a693f59]" started-at="2025-07-25T13:44:09 IST" name="deleteBookingTest" finished-at="2025-07-25T13:44:12 IST" duration-ms="2630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBookingTest -->
+      </class> <!-- DeleteBookingApiTests -->
+      <class name="CRUDTests">
+        <test-method signature="curdTest(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.Long,java.lang.String,java.lang.String)[pri:0, instance:CRUDTests@433defed]" started-at="2025-07-25T13:44:03 IST" name="curdTest" description="CRUD Opreation" data-provider="bookingDataWithForLoop" finished-at="2025-07-25T13:44:09 IST" duration-ms="6047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bernie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Conroy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pappardelle alla Bolognese]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[731]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2025-08-04]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2025-08-08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- curdTest -->
+        <test-method signature="curdTest(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.Long,java.lang.String,java.lang.String)[pri:0, instance:CRUDTests@433defed]" started-at="2025-07-25T13:44:03 IST" name="curdTest" description="CRUD Opreation" data-provider="bookingDataWithForLoop" finished-at="2025-07-25T13:44:09 IST" duration-ms="5976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anne]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Runolfsson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ebiten maki]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[220]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2025-08-04]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2025-08-08]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- curdTest -->
+      </class> <!-- CRUDTests -->
+      <class name="GetBookingApiTests">
+        <test-method signature="validateStatuCodeForGetBookingByIdApi()[pri:0, instance:GetBookingApiTests@3f4faf53]" started-at="2025-07-25T13:44:12 IST" name="validateStatuCodeForGetBookingByIdApi" description="Basic HTTP request to GET booking by ID" finished-at="2025-07-25T13:44:13 IST" duration-ms="1178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatuCodeForGetBookingByIdApi -->
+        <test-method signature="validateStatuCodeForGetBookingIdApi()[pri:0, instance:GetBookingApiTests@3f4faf53]" started-at="2025-07-25T13:44:13 IST" name="validateStatuCodeForGetBookingIdApi" description="Basic HTTP request to GET all bookings" finished-at="2025-07-25T13:44:14 IST" duration-ms="1449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatuCodeForGetBookingIdApi -->
+      </class> <!-- GetBookingApiTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

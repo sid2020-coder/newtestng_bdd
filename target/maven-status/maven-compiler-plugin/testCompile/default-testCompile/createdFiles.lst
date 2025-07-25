@@ -1,0 +1,7 @@
+UpdateBookingApiTests.class
+CRUDTests.class
+AwaitilityTests.class
+DeleteBookingApiTests.class
+GetBookingApiTests.class
+BaseTest.class
+CreateBookingApiTests.class
